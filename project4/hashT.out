@@ -1,0 +1,20 @@
+CS 3339 MIPS Simulator
+Branch Predictor Entries: 64
+Running: hash.mips
+
+ 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 1
+
+Program finished at pc = 0x40027c  (39119 instructions executed)
+Cycles: 128836
+CPI: 3.29
+
+Bubbles: 89252
+Flushes: 458
+
+Branches predicted: 4817
+  Pred T: 3069 (63.7%)
+  Pred NT: 1748
+Mispredictions: 98 (2.0%)
+  Mispredicted direction: 97
+  Mispredicted target: 1
+Predictor accuracy: 98.0%

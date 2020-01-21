@@ -1,0 +1,21 @@
+CS 3339 MIPS Simulator
+Branch Predictor Entries: 64
+Running: ../../infiles/sssp.mips
+
+ 7 1
+
+Program finished at pc = 0x400440  (449513 instructions executed)
+
+Cycles: 1586032
+CPI: 3.53
+
+Bubbles: 1125724
+Flushes: 10788
+
+Branches predicted: 42954
+  Pred T: 25851 (60.2%)
+  Pred NT: 17103
+Mispredictions: 5393 (12.6%)
+  Mispredicted direction: 2803
+  Mispredicted target: 2590
+Predictor accuracy: 87.4%
